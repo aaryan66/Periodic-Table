@@ -1,4 +1,228 @@
 *{
     margin: 0; 
     padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topic{
+    text-align: center;
+    margin-top: 3px;
+}
+
+.container { 
+    margin: 10px; 
+    /* border: 3px solid red;  */
+    display: flex;
+}
+.container{ 
+    height: 45em;
+}
+.left {
+    /* border: 2px solid black; */
+    width: 168px;
+
+}
+
+.center {
+    /* border: 2px solid green;  */
+    width: 890px;
+    margin-top: 15.75em; 
+    height:21em;
+}
+
+.center > div {
+    display: flex;
+}
+
+.right { 
+    /* border: 2px solid blue;  */
+    width: 540px;
+}
+
+.row_1 {
+    /* border: 2px solid blueviolet; */
+
+    height: 5em;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: bisque;
+    margin-bottom: 5px;
+}
+
+.sm-details {
+    display: flex;
+    font-size: 12px;
+}
+.no { 
+    margin-left: 2px;
+}
+.mass { 
+    margin-left: 3em;
+}
+
+.symbol { 
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 1.5em;
+}
+.hydrogen_name { 
+    margin-left: 8px; 
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.lithium_name { 
+    margin-left: 1.2em;
+}
+
+.li { 
+    background-color:aquamarine;
+}
+.mass_li{ 
+    margin-left: 4.55em; 
+}
+.row_2,.row_3 ,.row_4,.row_5, .row_6, .row_7,.rRow2, .rRow3, .rRow4, .rRow5,.rRow6,.rRow7{
+    /* border: 2px solid red; */
+    display: flex;
+    /* margin-bottom: 1px */
+}
+.row_3{
+    /* border: 3px solid blue;  */
+    padding-right: 3px; 
+}
+.li{
+    /* border: 2px solid blue; */
+    width: 85px;
+}
+
+.hydrogen { 
+    margin-right: 105px;
+    width: 82px;
+}
+
+.be {
+    margin-left: 4px;
+    background-color:rgb(214, 228, 171);
+    width: 80px; 
+    height: 5em;
+    /* margin-right: 5px; */
+    margin-right: 25px 
+}
+
+.berilium_name { 
+    margin-left: 15px; 
+}
+
+.mass_na {
+    margin-left: 3.5em; 
+}
+
+.mass_k {
+    margin-left: 3.5em;
+    font-size: 11px;
+}
+
+.k_name { 
+    margin-left: 4px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rb_name {
+    font-size: 15px; 
+    margin-left: 0.5em;
+}
+
+.rb_symbol {
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 1.5em;
+}
+
+.fr_name {
+    margin-left: 5px;
+}
+
+
+.he{
+    /* border: 3px solid brown;  */
+    height: 5em;
+    background-color: beige;
+    
+}
+.he{
+    margin-left: 460px;
+}
+
+.helium_name {
+    margin-left: 15px; 
+}
+
+.he_mass {
+    margin-left: 5em;
+}
+
+
+.rRow1, .rRow2, .rRow3, .rRow4, .rRow5, .rRow5, .rRow6, .rRow7 { 
+    /* border: 2px solid black; */
+    height: 5em;
+    /* display: flex; */
+    margin-bottom: 4px;
+}
+
+.b { 
+    background-color:rgb(251, 197, 197);
+    margin-left: 4px;
+    /* padding-left: 3px; */
+    width: 85px; 
+}
+
+.boron_name {
+    margin-left: 1em;
+}
+.c {
+    margin-left: 3px;
+    width: 85px;
+}
+
+.f{
+    background-color:rgb(188, 148, 225)
+}
+
+.ne{
+    margin-left: 5px; width: 85px;
+
+}
+.ne_name {
+    margin-left: 1.3em;
+}
+
+.rRow3, .rRow4,.rRow5,.rRow6, .rRow7 {
+    padding-left: 7px;
+}
+
+.al {
+    background-color: rgb(172, 230, 230);
+
+}
+.si {
+    margin-left: 5px;
+}
+
+.ch_name {
+    margin-left: 11px; 
+}
+
+.sn_name {
+    margin-left: 30px;
+}
+
+
+
+.sc, .sc2 { 
+    background-color: #e0ffcd;
+    width: 76px;
+}
+
+.sc { 
+    margin-left :6px; 
 }
