@@ -232,3 +232,15 @@
 .fe_name { 
     margin-left: 1.5em;
 }
+
+.other {
+    margin-left: 5vw
+}
+
+.ot1 > div {
+    background-color: #dadada;
+}
+
+.ot2 > div { 
+    background-color: aquamarine;
+}
